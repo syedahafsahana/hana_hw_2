@@ -128,6 +128,7 @@ ORDER BY created_at;
 Q12)Show the details of students who are among the 5 fastest finishers of the Day 2 exam.
 
 select
+q.hall_ticket_no,
 r.hall_ticket_no,
 r.surname,
 r.full_name,
